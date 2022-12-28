@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Codelândia - Desafio</title>
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -35,22 +35,34 @@
       <main>
         <section class="app">
           <img class="ghost" src="./assets/img/ghost.png" alt="Fantasma Logo" />
-          <h6>HAYAO MIYAZAKI</h6>
-          <h1>A VIAGEM DE CHIHIRO</h1>
-          <p class="paragraph">
-            Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que
-            a desobedecem são transformados em animais.
-          </p>
-          
-          <button>
-            <div class="button-content">
-            <img class="player" src="./assets/img/player.svg" alt="player button"/>
-            <p class="button-txt">
-              Assistir Agora
+          <div class="content">
+            <h6>HAYAO MIYAZAKI</h6>
+            <h1>A VIAGEM DE CHIHIRO</h1>
+            <p class="paragraph">
+              Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles
+              que a desobedecem são transformados em animais.
             </p>
-            </div>
-          </button>
-          <!-- <button>ASSISTA O TRAILER</button>  -->
+
+          <div class="section-buttons">
+            <button id="player-button">
+              <div class="button-content">
+                <img
+                  class="player"
+                  src="./assets/img/player.svg"
+                  alt="player button"
+                />
+                <p class="button-txt-player">Assistir Agora</p>
+              </div>
+            </button>
+
+            <button id="trailer-button">
+              <div class="button-content">
+                <p class="button-txt-trailer">Assista o Trailer</p>
+              </div>
+            </button>
+          </div>
+
+          </div>
         </section>
       </main>
     </div>
