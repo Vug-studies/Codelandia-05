@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(130.02deg, #628e75 0.66%, #1a4855 83.32%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  /* max-width: 26.5rem; */
+  padding-inline: 2.5rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.4rem;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.social-media img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.ghost {
+  width: 100%;
+  padding-top: 2.7rem;
+  display: inline-block;
+  margin: auto;
+}
+
+.app h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  letter-spacing: 0.03em;
+  color: #f9f9f9;
+}
+
+.app h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5.6rem;
+  line-height: 109%;
+  color: #f9f9f9;
+  padding-top: 0.6rem;
+}
+
+.app .paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 180%;
+  color: #f9f9f9;
+  width: 362px;
+  padding-top: 1.6rem;
+}
+
+button {  
+  width: 22.5rem;
+  height: 4.5rem;
+  background-color: #658e76;
+  border: 4px solid #658e76;
+  margin-top: 6.6rem;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  /*responsável por inclinar o botão*/
+  transform: skew(-24deg);
+}
+
+.button-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.player {
+    transform: skew(24deg);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #658e76;
+}
+
+button .button-txt {
+  transform: skew(24deg);
+  font-weight: 600;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 180%;
+  text-transform: uppercase;
+  color: #f9f9f9;
+}
