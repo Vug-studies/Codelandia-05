@@ -11,12 +11,11 @@
 body {
   background: linear-gradient(130.02deg, #628e75 0.66%, #1a4855 83.32%);
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
   font-size: 1.6rem;
 }
 
 .wrapper {
-  /* max-width: 26.5rem; */
   padding-inline: 2.5rem;
 }
 
@@ -80,7 +79,7 @@ header {
 .section-buttons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 3.3rem;
   align-items: center;
 }
 
@@ -93,7 +92,6 @@ header {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 300;
-  /*responsável por inclinar o botão*/
   transform: skew(-24deg);
 }
 
@@ -106,8 +104,8 @@ header {
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 300;
-  /*responsável por inclinar o botão*/
   transform: skew(-24deg);
+  display: none;
 }
 
 .button-content {
@@ -162,6 +160,10 @@ header {
   .wrapper {
     padding-inline: 18.5rem;
   }
+  .app h1 {
+    font-size: 6.8rem;
+    width: 44.5rem;
+  }
 }
 
 
@@ -174,9 +176,18 @@ header {
     width: 2.5rem;
     height: 2.5rem;
   }
+
+  .app h1 {
+    font-size: 6.8rem;
+    width: 44.5rem;
+  }
+
+  #trailer-button {
+    display: block
+  }
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1349px) {
   .app {
     display: flex;
     flex-direction: row-reverse;
@@ -196,12 +207,5 @@ header {
     font-size: 1.6rem;
     width: 44.5rem;
   }
-
-  #player-button {
-    margin-top: 4.6rem;
-  }
-
-  @media () {
-    
-  }
 }
+
