@@ -1,0 +1,55 @@
+@media (min-width: 600px) {
+  .ghost {
+    width: 500px;
+  }
+
+  .social-media img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .app h1 {
+    font-size: 6.8rem;
+    width: 44.5rem;
+  }
+
+  #trailer-button {
+    display: block;
+  }
+}
+
+@media (min-width: 900px) {
+  header {
+    padding-top: 4.1rem;
+  }
+
+  .wrapper {
+    padding-inline: 18.5rem;
+  }
+  .app h1 {
+    font-size: 6.8rem;
+    width: 44.5rem;
+  }
+}
+
+@media (min-width: 1349px) {
+  .app {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 10.5rem;
+  }
+
+  .app h6 {
+    font-size: 2rem;
+  }
+
+  .app h1 {
+    font-size: 6.8rem;
+    width: 44.5rem;
+  }
+
+  .app .paragraph {
+    font-size: 1.6rem;
+    width: 44.5rem;
+  }
+}

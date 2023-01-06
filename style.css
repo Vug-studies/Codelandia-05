@@ -15,6 +15,7 @@ body {
   font-size: 1.6rem;
 }
 
+/* wrapper */
 .wrapper {
   padding-inline: 2.5rem;
 }
@@ -27,6 +28,7 @@ header {
   padding-top: 1.4rem;
 }
 
+/* social-media */
 .social-media {
   display: flex;
   flex-direction: row;
@@ -38,6 +40,7 @@ header {
   height: 2rem;
 }
 
+/* app */
 .ghost {
   width: 100%;
   padding-top: 2.7rem;
@@ -45,6 +48,7 @@ header {
   margin: auto;
 }
 
+/* content */
 .app h6 {
   font-family: "Poppins";
   font-style: normal;
@@ -76,6 +80,7 @@ header {
   padding-top: 1.6rem;
 }
 
+/* buttons */
 .section-buttons {
   display: flex;
   flex-direction: row;
@@ -95,17 +100,8 @@ header {
   transform: skew(-24deg);
 }
 
-#trailer-button {
-  width: 22.5rem;
-  height: 4.5rem;
-  background: transparent;
-  border: 4px solid #658e76;
-  margin-top: 6.6rem;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-weight: 300;
-  transform: skew(-24deg);
-  display: none;
+#player-button:hover {
+  cursor: pointer;
 }
 
 .button-content {
@@ -117,15 +113,6 @@ header {
 
 .player {
   transform: skew(24deg);
-}
-
-#player-button:hover {
-  cursor: pointer;
-}
-
-#trailer-button:hover {
-  cursor: pointer;
-  background-color: #658e76;
 }
 
 #player-button .button-txt-player {
@@ -140,6 +127,24 @@ header {
   color: #f9f9f9;
 }
 
+#trailer-button {
+  width: 22.5rem;
+  height: 4.5rem;
+  background: transparent;
+  border: 4px solid #658e76;
+  margin-top: 6.6rem;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  transform: skew(-24deg);
+  display: none;
+}
+
+#trailer-button:hover {
+  cursor: pointer;
+  background-color: #658e76;
+}
+
 #trailer-button .button-txt-trailer {
   transform: skew(24deg);
   font-weight: 600;
@@ -151,61 +156,3 @@ header {
   text-transform: uppercase;
   color: #f9f9f9;
 }
-
-@media (min-width: 900px) {
-  header {
-    padding-top: 4.1rem;
-  }
-  
-  .wrapper {
-    padding-inline: 18.5rem;
-  }
-  .app h1 {
-    font-size: 6.8rem;
-    width: 44.5rem;
-  }
-}
-
-
-@media (min-width: 600px) {
-  .ghost {
-    width: 500px;
-  }
-
-  .social-media img {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-
-  .app h1 {
-    font-size: 6.8rem;
-    width: 44.5rem;
-  }
-
-  #trailer-button {
-    display: block
-  }
-}
-
-@media (min-width: 1349px) {
-  .app {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-top: 10.5rem;  
-  }
-
-  .app h6 {
-    font-size: 2rem;
-  }
-  
-  .app h1 {
-    font-size: 6.8rem;
-    width: 44.5rem;
-  }
-  
-  .app .paragraph {
-    font-size: 1.6rem;
-    width: 44.5rem;
-  }
-}
-
