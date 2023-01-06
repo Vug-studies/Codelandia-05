@@ -11,7 +11,7 @@ Projeto para treinar minhas habilidades como Front-end.
 ㅤ
 ![preview](./previw.jpg)
 
-🔗 [Clique aqui para acessar](https://namevug.github.io/#/)
+🔗 [Clique aqui para acessar](https://namevug.github.io/Codelandia-05/)
 
 
 ## Tecnologias
